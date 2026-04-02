@@ -1,16 +1,17 @@
 # GDIM 33 In-Class Activities
+### Pin Hsuan Wang
 ## W1
 ### Activity 1
-Put your inspo board link here. Do NOT leave a bare URL. REMOVE ALL INSTRUCTIONAL TEXT.
+[here is my inspo](https://docs.google.com/drawings/d/1bHQspzC-nP5P-pQtukpK7AowgIn8o3clHfYRSoLQpQc/edit?usp=sharing)
 
-1. Put your activity 1 answers here.
-2. Please keep the proper list format.
+1. I am fascinated by detective games and solving mysteries.A pattern I notice is that I enjoy games that involve investigation, storytelling, and uncovering clues.
+2. At my table, there is a classmate who likes visual novels, which is one of the detective game genres I play the most. We both enjoy story-driven games and character interactions.
+2. One of the LAs likes games such as Minecraft and Fortnite, which are quite different from mine. However, some concepts, like exploration, are the same.
 
 
 ### Activity 2
-Put your activity 2 image here. REMOVE THIS INSTRUCTIONAL TEXT.
 
-
+![alt text](image.png)
 ## W2
 Write your W2 Devlog here.
 
