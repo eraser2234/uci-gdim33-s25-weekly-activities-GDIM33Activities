@@ -26,6 +26,10 @@ Continue adding additional headers below this one for future weeks and future ac
 ### Activity 2
 
 1. Why is it advantageous to save the event name for the explore-to-dialogue state transitions as Scene variable ("clickNpcEventName")?
+It is easier to mangage and use in different scene.
 2. Describe how using at least one Debug.Log() node helped you test your Graphs at an intermediate step.
+I could use Debug.Log() node to help me check if the event being trigger succeesfully. I can use it when a dialog pop out and cursor is being unlock.
 3. Is the Set Cursor Lock State relevant to your Vertical Slice? Why or why not?
+Yes, it is related to my Vertical Slice. I use it when player access to the solving puzzle interface. 
 4. Is the concept of a "game state" relevant to your Vertical Slice? Why or why not?
+Yes, I need to manage puzzle by changing game state, to make sure which puzzle is solved and which isn't.
