@@ -16,3 +16,16 @@
 Write your W2 Devlog here.
 
 Continue adding additional headers below this one for future weeks and future activities.
+
+## W3
+
+### Activity 1
+
+![alt text](newbreakdown.jpeg)
+
+### Activity 2
+
+1. Why is it advantageous to save the event name for the explore-to-dialogue state transitions as Scene variable ("clickNpcEventName")?
+2. Describe how using at least one Debug.Log() node helped you test your Graphs at an intermediate step.
+3. Is the Set Cursor Lock State relevant to your Vertical Slice? Why or why not?
+4. Is the concept of a "game state" relevant to your Vertical Slice? Why or why not?
