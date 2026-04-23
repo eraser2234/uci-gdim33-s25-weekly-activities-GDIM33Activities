@@ -33,3 +33,32 @@ I could use Debug.Log() node to help me check if the event being trigger succees
 Yes, it is related to my Vertical Slice. I use it when player access to the solving puzzle interface. 
 4. Is the concept of a "game state" relevant to your Vertical Slice? Why or why not?
 Yes, I need to manage puzzle by changing game state, to make sure which puzzle is solved and which isn't.
+
+## W3
+
+### Activity 1
+In my build, player can move left and right, and interact with the object
+
+My goal is let team members do the movement and interaction
+
+My playtest team members:
+Rebecca 
+Andrew
+Sonia Mangat
+
+Note:
+The left/right movement can't stop until push arrow up/down.
+
+
+### Activity 2
+1. Assuming this activity is completed by a programmer, could a writer add more dialogue to this setup without writing any code? Why or why not?
+Yes, through adding nodes and new Scriptable Objects, it is easy to add more dialogue.
+
+2. What limit is there to the number of dialogue nodes that the writer could create without writing any code?
+Since it is posiible to make a dialogue loop, the writer can create endless amout of dialogue.
+
+3. In your own words, describe the purpose of the "Regenerate Nodes" button.
+Regenerate Nodes allow us to build the graph node what we have defined in C# code.
+
+### Bonus
+attach a screenshot of the visual you created.
