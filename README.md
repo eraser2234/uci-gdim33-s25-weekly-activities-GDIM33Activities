@@ -78,3 +78,25 @@ The State Machine works by transitioning between states based on player input, c
 ![Break down 3](https://github.com/user-attachments/assets/c53b90cb-904e-4688-9645-9648497151cb)
 
 
+## W5
+
+### Activity 1
+
+Character will reflect player movement with animations such as idle, walking, and running.
+#### Basic steps
+1. Download and add animations into Unity.
+2. Code the state machine (SM) and test transitions between states using debug logs only.
+3. Use the state machine to control animation changes.
+#### Substeps
+1. Download the character asset
+2. Slice it into different frames
+3. Set the images as sprites
+4. Use the Animation window to create animation clips
+5. Use the Animator to control animation transitions
+6. Use nodes to detect player input
+7. Connect player input to Animator variables
+
+
+### Activity 2
+
+I fininshed steps 1 to 5. I am still trying to make animation mirrow when character walks on the other side.
