@@ -100,3 +100,42 @@ Character will reflect player movement with animations such as idle, walking, an
 ### Activity 2
 
 I fininshed steps 1 to 5. I am still trying to make animation mirrow when character walks on the other side.
+
+
+
+## W6
+
+### Activity 1
+
+Since last milestone, I changed a little bit movement logic, and added the animation
+My playtest goal is: 
+1. To make sure the movement is funtional.
+2. Check the character animation is same as the input.
+Feedback:
+1. Add matirial will show clearer about what to do.
+2. Add the description: you have to get the tool to open the door.
+### Activity 2
+
+1. Multiply Mode literally multiply on each RGB value, it's between 0-1, which means multiply whould always result in smaller value, causing color darker and less saturated.
+
+2. More translucent. The Alpha value would be lower after multiply, so the lower Alpha is, the more translucent the color is. 
+
+3. It comes from vertex data of the UV mesh, 
+
+4. YES! Now I can modify material of the color and texture.
+
+
+## W7
+
+### Activity Devlog
+
+1. The data for the Vertex Color node come from Shiba mesh.
+2. It's blended because each vertex has color, and it interpolated color value at the edge.
+3. We are using mesh this time, it is less detail than texture. When the texture are similar, mesh is more simple to render and faster.
+4. It doesn't blend, the whole render color is different from the vertex normal.
+5. UV mesh. It applys the color R & G between 0-1 to show the position of the texture should be on the 3d model.
+6. Because Shiba's surface normal are not perpendicular to the surface.
+7. Additive add the color value on base color, so it makes the color brighter. 
+
+
+
