@@ -138,4 +138,33 @@ Feedback:
 7. Additive add the color value on base color, so it makes the color brighter. 
 
 
+## W8
 
+### Activity 1
+
+#### What's new
+- New build Scene 
+- Snow Partical Effect
+
+Link: https://eraser2234.itch.io/find-grandma30
+
+
+Playtest goal
+- Player can use the inventory 
+- The animation is work
+Playtest feedback
+- The character movement is a bit laggy
+- It would be good if the item can pop up when player touch the item. 
+- The inventory would be better if it show which item is be picked or didn't pick any.
+
+
+### Activity 2
+
+Activity 2B
+1. How is the Fraction node used to animate the shine effect?
+
+2. Why does the Shine texture for the ShinySprite shader need to be BLACK by default? Consider that we're using the Add Node to combine it with the original texture...
+
+3. Why isn't the building texture we used in the ShaderGraph applied to all of the Sprites that use the ShinySprite shader?
+
+4. Why do we multiply fraction(time * ShineSpeed) with the speed variable inside the fraction instead of outside- as in fraction(time)*speed? If you're not sure, try modifying your graph to multiply the Fraction node with ShineSpeed instead of multiplying Time with ShineSpeed, and see what happens.
