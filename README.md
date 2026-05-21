@@ -161,10 +161,10 @@ Playtest feedback
 ### Activity 2
 
 Activity 2B
-1. How is the Fraction node used to animate the shine effect?
+1. We add UV Shader on fraction node to create the affect of aplha change from 0-1. 
 
-2. Why does the Shine texture for the ShinySprite shader need to be BLACK by default? Consider that we're using the Add Node to combine it with the original texture...
+2. We we use add node, it add two color value together, if the default is white, than the color won't change because it's already max RGBA(1,1,1,1), so it should be black RGBA(0,0,0,0) to reflect the effect
 
-3. Why isn't the building texture we used in the ShaderGraph applied to all of the Sprites that use the ShinySprite shader?
+3. We named the shader graph as MainTex/ MaskTex / NormalMap, so that it can only apply to the Spite itself instead of apply to all of them.
 
-4. Why do we multiply fraction(time * ShineSpeed) with the speed variable inside the fraction instead of outside- as in fraction(time)*speed? If you're not sure, try modifying your graph to multiply the Fraction node with ShineSpeed instead of multiplying Time with ShineSpeed, and see what happens.
+4. Because it can slow down the game to do the math at with to outside of fraction node.
