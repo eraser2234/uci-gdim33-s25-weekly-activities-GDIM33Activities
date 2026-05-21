@@ -152,6 +152,8 @@ Link: https://eraser2234.itch.io/find-grandma30
 Playtest goal
 - Player can use the inventory 
 - The animation is work
+
+
 Playtest feedback
 - The character movement is a bit laggy
 - It would be good if the item can pop up when player touch the item. 
