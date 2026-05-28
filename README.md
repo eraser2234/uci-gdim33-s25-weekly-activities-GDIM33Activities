@@ -170,3 +170,28 @@ Activity 2B
 3. We named the shader graph as MainTex/ MaskTex / NormalMap, so that it can only apply to the Spite itself instead of apply to all of them.
 
 4. Because it can slow down the game to do the math at with to outside of fraction node.
+
+## W9
+
+### Activity 1
+#### Game selection
+The game I choose is Terraria
+#### Brainstorming
+##### Rendering effect 1
+Light Brightness: Different Brightness depends on different object
+If I am creating this feature:
+- I think it might be a rendering feature applied on each object, each object using same shader but different value such as light distance and light color.
+- However, it counts the number of light object when it is on player, to adds the light distance.
+- The light filter of the also different object to object to make the torch light move
+
+##### Rendering effect 2
+The attack affect of bullet and magic, it shows smoke/magic as the path of the bullet/spell  
+If I am creating this feature:
+-  I think it still the a rendering feature applied on each object, the object applied should be a dot or invisible refer as the attack.
+-  I will use the time to set duration the effect last
+-  And use random to let the fire/magic effect spread particle
+
+### Activity 2
+![Graph](https://github.com/user-attachments/assets/90950073-f544-4702-b339-578a53f55e36)
+
+I had a problem that the inventory index would missed because index less than 0 or greater than 14. I adjust the logic, using if condition to make sure index value always stay between 0-14.
