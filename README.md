@@ -195,3 +195,31 @@ If I am creating this feature:
 ![Graph](https://github.com/user-attachments/assets/90950073-f544-4702-b339-578a53f55e36)
 
 I had a problem that the inventory index would missed because index less than 0 or greater than 14. I adjust the logic, using if condition to make sure index value always stay between 0-14.
+
+
+## W10
+
+### Activity 1
+
+#### Goal
+- To test user is able to know how to use the inventory
+- Test the user is understand the play loop
+### Feedback
+- The item can be a bit bigger to let player understand it's not background / not obvious enough
+
+Itch.io link: https://eraser2234.itch.io/find-grandma40
+
+### Activity 2
+1. Identify which genre of game to make to start everything
+2. Start from something movitative, easy, small, fun
+3. Strat from movement to start from test game( start from the most core part )
+4. Draw a diagram about the 
+5. Make a basic UI
+6. Set the environment
+7. Playtest
+8. Start making the thing you least experiencing during playtest
+9. Planning what should done based on resourses, time and ability which affect the scope you can do, remove the 
+
+### Activity 3
+
+I think Scene transfer would cost too much time, so I decide to put puzzles in same scene, working on the second puzzle
